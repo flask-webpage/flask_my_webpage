@@ -3,6 +3,17 @@ body{
     background-color: #ffe7ff;
 }
 
+/************ common **************/
+.mg20{
+    margin: 20px;
+}
+.mg40{
+    margin: 40px;
+}
+.pointer{
+    cursor: pointer;
+}
+
 /************ div **************/
 .container{
     position: relative;
@@ -16,6 +27,42 @@ body{
     font-family: 'LeeSeoyun';
 }
 
+.loading{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'LeeSeoyun';
+    font-weight: bold;
+    font-size: 60px;
+}
+
+.result{
+    position: relative;
+    width: 70%;
+    margin: 50px auto;
+    padding: 20px;
+    text-align: center;
+    font-family: 'LeeSeoyun';
+}
+
+.result_title{
+    font-size: 70px;
+    font-family: 'LeeSeoyun';
+    margin-bottom: 30px;
+    font-weight: 900;
+}
+
+.result_subtitle{
+    font-size: 30px;
+    font-family: 'LeeSeoyun';
+}
+
+.result_emphasis{
+    font-size: 40px;
+    font-family: 'HSYuji-Regular';
+}
+
 .title{
     font-size: 50px;
     font-weight: 900;
@@ -27,20 +74,59 @@ body{
     margin: 100px 0px;
 }
 
+.result_content{
+    margin: 30px 0px;
+}
+
+.result_explain{
+    font-size: 25px;
+    font-family: 'LeeSeoyun';
+    letter-spacing: 2px;
+}
+
 .bton{
     margin-top: 100px;
     margin-bottom: 50px;
 }
 
-.first_choice{
+.choice{
     background-color: #fff;
-    border: 2px solid rgb(255, 184, 219);
     border-radius: 15px;
-    box-shadow: 1px 1px 10px 5px rgb(255, 184, 219); /* x-position, y-position, blur, spread, color */
     font-family: 'HSYuji-Regular';
     font-size: 25px;
     text-indent: 100px;
     text-align: left;
+    cursor: pointer;
+}
+
+.first_choice{
+    border: 2px solid rgb(255, 184, 184);
+    box-shadow: 1px 1px 10px 5px rgb(255, 184, 184); /* x-position, y-position, blur, spread, color */
+}
+
+.second_choice{
+    border: 2px solid rgb(255, 224, 184);
+    box-shadow: 1px 1px 10px 5px rgb(255, 224, 184); /* x-position, y-position, blur, spread, color */
+}
+
+.third_choice{
+    border: 2px solid rgb(204, 255, 184);
+    box-shadow: 1px 1px 10px 5px rgb(204, 255, 184); /* x-position, y-position, blur, spread, color */
+}
+
+.fourth_choice{
+    border: 2px solid rgb(184, 189, 255);
+    box-shadow: 1px 1px 10px 5px rgb(184, 189, 255); /* x-position, y-position, blur, spread, color */
+}
+
+.fifth_choice{
+    border: 2px solid rgb(222, 184, 255);
+    box-shadow: 1px 1px 10px 5px rgb(222, 184, 255); /* x-position, y-position, blur, spread, color */
+}
+
+.sixth_choice{
+    border: 2px solid rgb(255, 184, 228);
+    box-shadow: 1px 1px 10px 5px rgb(255, 184, 228); /* x-position, y-position, blur, spread, color */
 }
 
 /************ span **************/
@@ -68,4 +154,9 @@ body{
 .index_img{
     width: 300px;
     margin: 0 70px;
+}
+
+.result_img{
+    width: 400px;
+    margin: 50px 0;
 }

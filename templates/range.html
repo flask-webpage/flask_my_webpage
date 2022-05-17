@@ -1,0 +1,33 @@
+{% extends "main.html" %}
+{% block content %}
+<!-- 결과 화면 -->
+<div class="result">
+    <!-- 제목 -->
+    <div class="result_title">
+        당신의 결과는 !?
+    </div>
+
+    <!-- 부제목 -->
+    <div class="result_subtitle">
+        멀리서 약오르게 하는 <span class="space result_emphasis">&lt;럭스&gt;</span>
+    </div>
+
+    <!-- 결과 내용 -->
+    <div class="result_content">
+        <!-- 결과 이미지 -->
+        <img src="../static/images/lux.gif" class="result_img" alt="럭스">
+
+        <!-- 결과 설명 -->
+        <div class="result_explain">
+            멀리서 약오르게 때리고 싶은 사람이 있나요??
+            당신은 장난을 좋아하는군요!!
+            너무 선 넘는 장난만 안 치길 바라요~!!
+        </div>
+    </div>
+
+    <!-- 처음으로 버튼 -->
+    <div class="bton">
+        <input type="button" class="start_button pointer" value="처음으로" onclick="back()">
+    </div>
+</div>
+{% endblock %}

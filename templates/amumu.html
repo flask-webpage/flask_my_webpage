@@ -1,0 +1,34 @@
+{% extends "main.html" %}
+{% block content %}
+<!-- 결과 화면 -->
+<div class="result">
+    <!-- 제목 -->
+    <div class="result_title">
+        당신의 결과는 !?
+    </div>
+
+    <!-- 부제목 -->
+    <div class="result_subtitle">
+        당신!!!! 친구 없지!??!? <span class="space result_emphasis">&lt;아무무&gt;</span>
+    </div>
+
+    <!-- 결과 내용 -->
+    <div class="result_content">
+        <!-- 결과 이미지 -->
+        <img src="../static/images/amumu-sad.gif" class="result_img" alt="아무무">
+
+        <!-- 결과 설명 -->
+        <div class="result_explain">
+            아아.. 친구가 없는 당신.. 진정한 아싸로군요. 불쌍하기 그지 없습니다.
+            아무도 친구를 해주지 않는 건지, 친구를 사귈 마음이 없는 건지 도무지 알 수가 없군요.
+            제발 밖에 좀 나가서 공기도 쐬고 살았으면 좋겠네요 ㅠㅠ.
+            집에서 게임 그만하고 맛있는 것도 먹고, 운동도 하고! 힘차게 살아봅시다!!
+        </div>
+    </div>
+
+    <!-- 처음으로 버튼 -->
+    <div class="bton">
+        <input type="button" class="start_button pointer" value="처음으로" onclick="back()">
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,12 @@
+{% extends "main.html" %}
+{% block content %}
+<div class="loading">
+    잠시만 기다려주세요...
+</div>
+
+<script>
+    window.onload = function(){
+        setTimeout(result, 1500, '{{value}}')
+    }
+</script>
+{% endblock %}

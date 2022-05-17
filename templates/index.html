@@ -1,5 +1,7 @@
 {% extends "main.html" %}
 {% block content %}
+<!-- 컨테이너 -->
+<div class="container">
     <!-- 제목 -->
     <div class="title">
         나와 가장 잘 어울리는 <span class="title_text">League of Legend</span> 챔피언은?
@@ -15,6 +17,7 @@
 
     <!-- 시작하기 버튼 -->
     <div class="bton">
-        <input type="button" class="start_button" value="시작하기" onclick="startClick()">
+        <input type="button" class="start_button pointer" value="시작하기" onclick="start()">
     </div>
+</div>
 {% endblock %}

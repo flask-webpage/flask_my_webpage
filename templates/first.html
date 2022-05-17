@@ -1,0 +1,37 @@
+{% extends "main.html" %}
+{% block content %}
+<!-- 컨테이너 -->
+<div class="container">
+    <!-- 내용 -->
+    <div class="content">
+        <div class="choice first_choice mg40 pointer" onclick="loading(1);">
+            <p>1. <span class="space"></span>나는 누군가를 죽이고(...) 싶다.</p>
+        </div>
+
+        <div class="choice second_choice mg40" onclick="loading(2);">
+            <p>2. <span class="space"></span>나는 얄밉게 멀리서 약올리듯이 때리는 게 좋다.</p>
+        </div>
+
+        <div class="choice third_choice mg40" onclick="loading(3);">
+            <p>3. <span class="space"></span>나는 아파하는 우리 팀을 두고 볼 수가 없다.</p>
+        </div>
+
+        <div class="choice fourth_choice mg40" onclick="loading(4);">
+            <p>4. <span class="space"></span>내 인생에 후퇴는 없다! 무조건 돌격!! 너 죽고 나 죽자!!!</p>
+        </div>
+
+        <div class="choice fifth_choice mg40" onclick="loading(5);">
+            <p>5. <span class="space"></span>나는 맞는 게 너무나도 좋고 행복하다♥ (앗.. 위험하다 이거..)</p>
+        </div>
+
+        <div class="choice sixth_choice mg40" onclick="loading(6);">
+            <p>6. <span class="space"></span>나는 멀리서 지켜보는 걸 좋아한다...♥ (!?!?)</p>
+        </div>
+    </div>
+
+    <!-- 처음으로 버튼 -->
+    <div class="bton">
+        <input type="button" class="start_button pointer" value="처음으로" onclick="back()">
+    </div>
+</div>
+{% endblock %}

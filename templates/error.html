@@ -1,0 +1,31 @@
+{% extends "main.html" %}
+{% block content %}
+<!-- 결과 화면 -->
+<div class="result">
+    <!-- 제목 -->
+    <div class="result_title">
+        에러입니다!!
+    </div>
+
+    <!-- 부제목 -->
+    <div class="result_subtitle">
+        관리자에게 문의하세요~~~
+    </div>
+
+    <!-- 결과 내용 -->
+    <div class="result_content">
+        <!-- 결과 이미지 -->
+        <img src="../static/images/amumu-sad.gif" class="result_img" alt="아칼리">
+
+        <!-- 결과 설명 -->
+        <div class="result_explain">
+            ! ! E R R O R ! !
+        </div>
+    </div>
+
+    <!-- 처음으로 버튼 -->
+    <div class="bton">
+        <input type="button" class="start_button pointer" value="처음으로" onclick="back()">
+    </div>
+</div>
+{% endblock %}

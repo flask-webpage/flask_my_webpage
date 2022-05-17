@@ -1,0 +1,32 @@
+{% extends "main.html" %}
+{% block content %}
+<!-- 결과 화면 -->
+<div class="result">
+    <!-- 제목 -->
+    <div class="result_title">
+        당신의 결과는 !?
+    </div>
+
+    <!-- 부제목 -->
+    <div class="result_subtitle">
+        나에게 뒤는 없다. 앞만 보고 간다!! <span class="space result_emphasis">&lt;가렌&gt;</span>
+    </div>
+
+    <!-- 결과 내용 -->
+    <div class="result_content">
+        <!-- 결과 이미지 -->
+        <img src="../static/images/garen.gif" class="result_img" alt="가렌">
+
+        <!-- 결과 설명 -->
+        <div class="result_explain">
+            당신에게 후퇴는 죽음과 같은 것입니다.
+            오로지 앞!만!! 보고!!! 간드아!!!!!!!
+        </div>
+    </div>
+
+    <!-- 처음으로 버튼 -->
+    <div class="bton">
+        <input type="button" class="start_button pointer" value="처음으로" onclick="back()">
+    </div>
+</div>
+{% endblock %}

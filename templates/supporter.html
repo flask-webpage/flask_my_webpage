@@ -1,0 +1,32 @@
+{% extends "main.html" %}
+{% block content %}
+<!-- 결과 화면 -->
+<div class="result">
+    <!-- 제목 -->
+    <div class="result_title">
+        당신의 결과는 !?
+    </div>
+
+    <!-- 부제목 -->
+    <div class="result_subtitle">
+        어머니, 우리 어머니..! <span class="space result_emphasis">&lt;소라카&gt;</span>
+    </div>
+
+    <!-- 결과 내용 -->
+    <div class="result_content">
+        <!-- 결과 이미지 -->
+        <img src="../static/images/soraka.gif" class="result_img" alt="소라카">
+
+        <!-- 결과 설명 -->
+        <div class="result_explain">
+            당신은 누가 아파하는 것을 차마 보지 못하는 매우 따뜻한 마음씨를 지닌 사람이군요!
+            자신을 희생해서라도 팀원을 살려주고자 하는 그 마음은 누구라도 감동할 것입니다..ㅠ ㅠ
+        </div>
+    </div>
+
+    <!-- 처음으로 버튼 -->
+    <div class="bton">
+        <input type="button" class="start_button pointer" value="처음으로" onclick="back()">
+    </div>
+</div>
+{% endblock %}

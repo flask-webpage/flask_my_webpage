@@ -1,0 +1,32 @@
+{% extends "main.html" %}
+{% block content %}
+<!-- 결과 화면 -->
+<div class="result">
+    <!-- 제목 -->
+    <div class="result_title">
+        당신의 결과는 !?
+    </div>
+
+    <!-- 부제목 -->
+    <div class="result_subtitle">
+        미친듯이 맞기만 하는(그리고 맞는 걸 즐기는(!?)) <span class="space result_emphasis">&lt;타릭&gt;</span>
+    </div>
+
+    <!-- 결과 내용 -->
+    <div class="result_content">
+        <!-- 결과 이미지 -->
+        <img src="../static/images/taric.gif" class="result_img" alt="타릭">
+
+        <!-- 결과 설명 -->
+        <div class="result_explain">
+            당신은 정말로 맞는 것을 즐기고 좋아하시나요..!? (도망쳐!!)
+            누구보다 앞장서서 팀원을 보호하는 건 좋지만 왜... 취향이... 흠흠
+        </div>
+    </div>
+
+    <!-- 처음으로 버튼 -->
+    <div class="bton">
+        <input type="button" class="start_button pointer" value="처음으로" onclick="back()">
+    </div>
+</div>
+{% endblock %}
