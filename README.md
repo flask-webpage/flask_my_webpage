@@ -1,5 +1,9 @@
 # [나와 가장 잘 어울리는 League of Legend 챔피언은?]
 
+<img src="static/images/index.png", width="500", alt="첫 화면">
+
+[사이트로 이동](https://flask-my-webpage.herokuapp.com/)
+
 ### [개요]
 - Flask로 만드는 나만의 Webpage
 
