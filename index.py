@@ -9,6 +9,11 @@ app = Flask(__name__)
 def index():
     return render_template('index.html')
 
+# test
+@app.route('/test')
+def test():
+    return '<h1>T E S T</h1>'
+
 # 선택지 고르는 화면 (시작하기 버튼 클릭)
 @app.route('/first_choice')
 def first_choice():
