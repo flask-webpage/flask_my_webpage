@@ -9,9 +9,10 @@
 - ## `Flask로 만드는 나만의 Webpage`
 
 ## [적용한 기술]
-- `Front-end`: HTML, CSS, Javascript
-- `Back-end`: Flask, Python
-- `Deploy`: Heroku
+- `Front-end` : HTML, CSS, Javascript
+- `Back-end` : Python
+- `Web-Framework` : Flask
+- `Deploy` : Heroku
 
 ## [작업 순서]
 - 프론트 단 구축
