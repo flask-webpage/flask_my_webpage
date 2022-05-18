@@ -1,11 +1,9 @@
 # [나와 가장 잘 어울리는 <span style="color: #46AAEB">League of Legend</span> 챔피언은?]
 
 <!-- 이미지로 링크 이동하기 -->
-<a href="https://flask-my-webpage.herokuapp.com" target="_blank" alt="첫 화면">
-    <img src="static/images/index.png">
-</a>
+[![사이트로 이동](static/images/index.png)](https://flask-my-webpage.herokuapp.com)
 
-<strong><a href="https://flask-my-webpage.herokuapp.com" target="_blank">사이트로 이동!!</a></strong>
+**[사이트로 이동!!](https://flask-my-webpage.herokuapp.com)**
 
 ## [개요]
 - ## `Flask로 만드는 나만의 Webpage`
